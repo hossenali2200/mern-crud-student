@@ -46,9 +46,16 @@ function StudentList() {
             return (
               <tr key={index}>
                 <th scope="row">{user._id}</th>
-                <td>{user.name}</td>
-                <td>{user.email}</td>
-                <td>@{user.rollno}</td>
+                <td>{user.firstName}</td>
+                <td>{user.lastName}</td>
+                <td>{user.gender}</td>
+                <td>{user.dateOfBirth}</td>
+                <td>{user.nationality}</td>
+                <td>{user.address}</td>
+                <td>{user.Email}</td>
+                <td>{user.phone}</td>
+                <td>{user.admissionDate}</td>
+                <td>@{user.courses}</td>
                 <td>
                   <Link
                     className="btn btn-primary btn-sm me-2"
